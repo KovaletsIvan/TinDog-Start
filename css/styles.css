@@ -53,3 +53,32 @@ body {
     width: 60%;
     transform: rotateZ(25deg);
 }
+
+/*Features Section*/
+
+#features{
+    padding: 7% 15%;
+}
+
+.div-features {
+    text-align: center;
+    padding: 5%;
+}
+
+.features-icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.features-icons:hover{
+    color: #ff4c68;
+}
+
+h3 {
+    font-family: 'Montsterrat'sans-serif;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
