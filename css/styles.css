@@ -14,7 +14,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /*Navigation Bar*/
@@ -50,14 +50,24 @@ body {
 /*Title Image*/
 
 .title-image {
-    width: 60%;
+    width: 18%;
     transform: rotateZ(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+.div-img-title {
+    position: relative;
 }
 
 /*Features Section*/
 
 #features {
     padding: 7% 15%;
+    background-color: rgb(247, 244, 240);
+    position: relative;
+    z-index: 1;
+
 }
 
 .div-features {
@@ -120,4 +130,18 @@ h2 {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Prising Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.prising-column {
+    padding: 3% 2%;
+}
+
+.card {
+    height: 100%;
 }
