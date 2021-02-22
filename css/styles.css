@@ -196,15 +196,14 @@ p {
     #cta {
         padding: 7% 3%;
     }
-    #title {
+    #title,
+    .title-content,
+    .big-heading {
         text-align: center;
     }
     .title-image {
         position: static;
         width: 60%;
         transform: rotateZ(0deg);
-    }
-    .big-heading {
-        text-align: center;
     }
 }
